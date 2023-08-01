@@ -1,0 +1,12 @@
+.main-form {
+    height: 100vh;
+    background: #ccc;
+    position: relative;
+    padding: 5% 0;
+}
+form.inner-form {
+    width: 40%;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    padding: 80px 30px;
+    border-radius: 10px;
+}

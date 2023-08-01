@@ -1,0 +1,91 @@
+.col-1 {
+    height: 100vh;
+    background-color: blue;
+}
+
+.sideBarChat {
+    color: white;
+    list-style: none;
+    width: 100%;
+    padding-left: 0;
+}
+
+.sideBarChat div {
+    border-bottom: 1px solid;
+
+}
+
+.selected {
+    background: #6363cb;
+    padding: 6px;
+
+}
+
+.chat-header {}
+
+.chat-left {
+    background-color: blue;
+    width: 40%;
+    color: white;
+    border-radius: 7px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.chat-right {
+    background: #494949;
+    width: 40%;
+    color: white;
+    border-radius: 7px;
+    padding: 15px;
+    margin: 0 0 0 auto;
+}
+
+.chat-seen {
+    background-color: #b7a88e;
+}
+
+
+.main-row {
+    background: #00B2FF;
+    height: 100vh;
+}
+.mian-chat-box {
+    height: 10%;
+    overflow: auto;
+}
+.right-side {
+    background: #006AFF;
+    padding: 20px;
+    height: 100%;
+    overflow: auto;
+}
+.list-data ul li {
+    color: #fff;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 10px;
+}
+.list-data ul li.current {
+    color: #38ff01;
+}
+.left-side {
+    padding: 20px;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.message-sends input {
+    width: 80%;
+    margin-top: 40px;
+    height: 40px;
+    border: 0;
+    border-radius: 5px 0 0 5px;
+}
+.message-sends button {
+    background: #ffd400;
+    height: 40px;
+    border: 0;
+    border-radius: 0 5px 5px 0;
+    width: 20%;
+}
